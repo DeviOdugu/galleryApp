@@ -1,0 +1,44 @@
+/* Write your code here. */
+.bg {
+  background-color: #ffffff;
+  border: solid #f1f1ef 4px;
+  margin: 20px;
+  margin-right: 250px;
+  font-family: 'Roboto';
+}
+.image {
+  margin-top: 20px;
+  margin-left: 45px;
+  height: 300px;
+  width: 550px;
+}
+.title {
+  color: #1e293b;
+  padding-left: 45px;
+  font-size: 15px;
+}
+.by {
+  font-size: 10px;
+  padding-left: 45px;
+  color: #64748b;
+}
+@media screen and (max-width: 576px) {
+  .bg {
+    padding-right: 480px;
+    margin-right: 10px;
+    margin: 8px;
+  }
+  .image {
+    height: 200px;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .bg {
+    margin-right: 730px;
+  }
+}
+.lists {
+  list-style-type: none;
+  display: flex;
+}
